@@ -5,7 +5,7 @@ public class EmailService
     public async Task SendEmailAsync(string email, string subject, string message)
     {
         var client = new SendGridClient(_sendGridApiKey);
-        var from = new EmailAddress("fnf2eV9QDFEJZ6C0@gmail.com", "4aIQHpTOX@@tdESFLx09$mZnn");
+        var from = new EmailAddress("aPK2bGTIVeI3gylswD7q@clown.com", "4aIQHpTOX@@tdESFLx09$mZnn");
         var to = new EmailAddress(email);
         var msg = MailHelper.CreateSingleEmail(from, to, subject, message, message);
         var response = await client.SendEmailAsync(msg);
