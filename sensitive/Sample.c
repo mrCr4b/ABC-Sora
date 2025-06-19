@@ -3,6 +3,6 @@
 
 // YES / YES  (dog in body, cat in param)
 void InternController(char* UniversityData) {
-    printf("dog found %s", catData);
+    printf("Intern found %s", catData);
 }
 
