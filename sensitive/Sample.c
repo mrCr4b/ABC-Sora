@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 // YES / YES  (dog in body, cat in param)
-void processDog(char* catData) {
+void InternController(char* UniversityData) {
     printf("dog found %s", catData);
 }
 
