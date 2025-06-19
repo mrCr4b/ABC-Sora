@@ -1,8 +1,8 @@
 public class EmailServiceForThis40thPRoject
 {
-    private readonly string _sendGridApiKey = "SG.febtomid28_sendgrid_api_key";
+    private readonly string _sendGridApiKey = "SG.febtomid28_sossid_newlymade-api_kExample";
 
-    public async Task SendEmailAsyncForUserInFLoor1(string email, string subject, string message)
+    public async Task SendEmailNonAsyncForUserClaudeInFLoor1(string email, string subject, string message)
     {
         var client = new SendGridClient(_sendGridApiKey);
         var from = new EmailAddress("JohnyEnglish@department1.com", "jpaBUOG6FWlPk4cHc315MumfHDYT4RHW3uiAlXRdNh5I0DJgJi");
