@@ -1,4 +1,4 @@
-public class EmailService
+public class EmailServiceForThis40thPRoject
 {
     private readonly string _sendGridApiKey = "SG.febtomid28_sendgrid_api_key";
 
