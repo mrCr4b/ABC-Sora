@@ -1,4 +1,4 @@
-public class EmailServiceForThis40thPRoject
+public class JavaJSPCOntrolleRProj2
 {
     private readonly string _sendGridApiKey = "SG.febtomid28_sossid_newlymade-api_kExample";
 
